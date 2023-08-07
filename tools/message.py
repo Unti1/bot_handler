@@ -3,6 +3,7 @@ from .buttons import *
 from .correct_mail import *
 from .States import *
 
+
 API_TOKEN = config['Telegram']['token']
 bot = Bot(token=API_TOKEN)
 
