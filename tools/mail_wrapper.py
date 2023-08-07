@@ -5,6 +5,7 @@ async def read_mail(email, password):
     mail = imaplib.IMAP4_SSL("imap.mail.ru")
 
     # Вход в почту
+    
     mail.login(email, password)
 
     # Выбор папки из который читаем письма
